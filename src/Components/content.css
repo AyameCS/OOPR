@@ -1,0 +1,18 @@
+.Vision{
+    text-align: left;
+    height: 450px;
+    width: 900px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;align-items: center;
+    padding-left: 10px;
+    justify-content: center;
+    color: white;
+    font-family: 'Fantasy';
+    font-weight: 100;
+    font-size:25px;
+    margin-left:200px;
+    margin-top: 20px;
+    border: 3px solid black;
+    background-color: green;
+}  

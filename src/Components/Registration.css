@@ -1,0 +1,169 @@
+.head {
+    background-image: url('white.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(22, 223, 22);
+    height: 80px;
+    padding: 0 50px;
+  }
+  
+  .logo img {
+    height: 70px;
+  }
+  .logo2 img {
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 20px;
+  }
+  
+  .nav-links li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .nav-links li a:hover {
+    color: rgba(255, 255, 255, 0.658);
+  }
+  
+  .login-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .login-links li {
+    margin: 0 20px;
+  }
+  
+  .login-links li a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .login-links li a:hover {
+    color: rgba(255, 255, 255, 0.658);
+  }
+  
+  .footer {
+    background-color: #333333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color:rgba(20, 20, 20, 0.534);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #3ef5079d;
+  }
+  .Registration button,
+  .Registration input[type='submit'] {
+    background-color: rgb(4, 247, 126);
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .Registration input[type='text'],
+  .Registration input[type='email'],
+  .Registration input[type='password'] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(255, 255, 255); 
+    background-color: rgba(46, 45, 45, 0.356);
+  }
+  
+  
+  .Registration label {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: 'Fantasy';
+  }
+  
+  .Registration form {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    background-color: rgba(46, 45, 45, 0.356);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 500px;
+  }
+  
+  .Registration form h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #008000;
+    font-family: 'Fantasy';
+  }
+  

@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .form-box {
+    width: 380px;
+    height: 450px;
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    opacity: 0.5;
+    border-radius: 2%;
+  }
+  
+  .header-form {
+    margin-bottom: 15px;
+  }
+  
+  button[type='submit'] {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .message {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+  }
+  
+  .social i {
+    font-size: 35px;
+  }
+  
+  .social i:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+  input[type="text"], input[type="password"] {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+  }
+  
+  input[type="text"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: green;
+  }
+  
+  .btn-login {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-login:hover {
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+  }
+  
+  .btn-register {
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    }
+    
+    .btn-register:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid white;
+    margin-right: 5px;
+    }
+    
+    .btn-register:hover:before
+    {
+    border-left-color: green;
+    }
+    
+  .btn-secondary {
+    font-size: 17px;
+    padding: 12px 20px;
+  }
+  .logo3 img {
+    height: 70px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
