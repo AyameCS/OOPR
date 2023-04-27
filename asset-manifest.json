@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/OOPR/static/css/main.80b59f07.css",
+    "main.js": "/OOPR/static/js/main.6307906e.js",
+    "static/media/white.jpg": "/OOPR/static/media/white.39a1d79a2c934dac055e.jpg",
+    "static/media/image-3.png": "/OOPR/static/media/image-3.8aa9bdf41601e1c3cb3b.png",
+    "static/media/image-2.png": "/OOPR/static/media/image-2.777a805faeea1e500399.png",
+    "static/media/image-1.png": "/OOPR/static/media/image-1.0f88f45f8deb7515080e.png",
+    "static/media/EvoX.jpg": "/OOPR/static/media/EvoX.ac74fa6fb45af0ec5019.jpg",
+    "static/media/Lancer.jpg": "/OOPR/static/media/Lancer.d08f814fe3602f1652b8.jpg",
+    "static/media/olfu.png": "/OOPR/static/media/olfu.38289cdd9251795b518e.png",
+    "static/media/LanEvo.jpg": "/OOPR/static/media/LanEvo.0806adfba785e23f12e6.jpg",
+    "static/media/OLFULOGO.png": "/OOPR/static/media/OLFULOGO.ee8b948e64bfbf6f17c8.png",
+    "index.html": "/OOPR/index.html",
+    "main.80b59f07.css.map": "/OOPR/static/css/main.80b59f07.css.map",
+    "main.6307906e.js.map": "/OOPR/static/js/main.6307906e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80b59f07.css",
+    "static/js/main.6307906e.js"
+  ]
+}
